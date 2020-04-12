@@ -1,0 +1,36 @@
+body{
+    background-color: cornflowerblue ;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Poppins', 'sans-serif';
+    text-align: center;
+}
+#logueo,#guardar{
+    background-color: grey ;
+    color: blanchedalmond;
+    border: 1px solid blue;
+    font-size: 16px;
+    text-align: center ;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#logueo:hover, #guardar:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+#contenedor{
+    width: auto;
+    text-align: center;
+}
+
+#foto{
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/360/75/dam/wdpro-assets/dlr/parks-and-tickets/special-events/after-dark/dlr-event-after-dark-hero-castle-5x2.jpg?1584024981761");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
